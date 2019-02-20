@@ -1,0 +1,24 @@
+{
+  "name": "Acme-Users-CRUD-SEQ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:db": "DATABASE_URL=postgres://localhost/acme_crud_db nodemon db.js",
+    "start:app": "DATABASE_URL=postgres://localhost/acme_crud_db nodemon app.js",
+    "start:server": "DATABASE_URL=postgres://localhost/acme_crud_db nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0",
+    "supertest": "^3.4.2"
+  }
+}
